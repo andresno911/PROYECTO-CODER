@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+
+/*headers*/
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+    font-size: 28px;
+}
+
+header a img {
+    width: 105px;
+    height: 75px;
+}
+
+header nav a {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/*Index Main*/
+
+.mainindex .maindivindex {
+    display: flex;
+    background-image: url(./img/cft\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-items: center;
+    height: 1000px;
+    justify-content: center;
+    background-size: auto;
+}
+
+main div h1 {
+    color: black;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 40px;
+}
+
+/*Contacto Main*/
+.maincontacto {
+    height: 700px;
+    background-image: url(./img/cft\ fondo.jpg);
+    width: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+
+
+.maincontacto h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.fieldsetformmaincontacto1 section div {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.fieldsetformmaincontacto1 {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+.fieldsetformmaincontacto2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.spanexperiencia {
+    padding: 10px;
+}
+
+#divmodalidad {
+    border-color: black;
+    border-width: thick;
+}
+
+#divbutton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.divmainconsulta {
+    padding-top: 130px;
+}
+
+/*Galeria main*/
+.maingaleria h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.divgaleria {
+    background-color: rgb(71, 71, 71);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr;   
+    justify-items: center;
+}
+
+.fotopesca {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-style: solid;
+    border-color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+/*Nosotros Main*/
+
+.nosotrosmain h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.nosotrosmain {
+    height: 700px;
+    background-image: url(./img/cft\ fondo.jpg);
+    width: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+/*Pesqueros Main*/
+
+
+.pesquerosmain {
+    height: 700px;
+    background-image: url(./img/cft\ fondo.jpg);
+    width: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.pesquerosmain h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.pesquerosmain div img {
+    width: 75px;
+    height: 75px;
+    /*display: block;*/
+    margin-top: 00px;
+}
+
+.pesquerosmain div iframe {
+    width: 75px;
+    height: 75px;
+    /*display: block;*/
+    margin-top: 00px;
+}
+
+/*Footers*/
+
+.divfooterindex {
+    display: flex;
+    justify-content: center;
+}
+.divfooterindex a img {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    margin-top: 30px;
+}
+
