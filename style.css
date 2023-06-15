@@ -111,23 +111,23 @@ main div h1 {
     font-size: 35px;
 }
 
+
 .divgaleria {
     background-color: rgb(71, 71, 71);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr;   
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    align-items: center;
 }
 
 .fotopesca {
-    height: 500px;
-    width: 500px;
+    width: 90%;
     object-fit: cover;
     border-style: solid;
     border-color: aliceblue;
     margin-top: 5px;
     margin-bottom: 5px;
-    
+height: 300px;
 }
 
 /*Nosotros Main*/
@@ -185,6 +185,7 @@ main div h1 {
     display: flex;
     justify-content: center;
 }
+
 .divfooterindex a img {
     width: 75px;
     height: 75px;
@@ -192,3 +193,61 @@ main div h1 {
     margin-top: 30px;
 }
 
+/*TABLET*/
+
+@media (max-width: 1024px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .divgaleria {
+        background-color: rgb(71, 71, 71);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr;
+        justify-items: center;
+    }
+
+    .fotopesca {
+
+        object-fit: cover;
+        border-style: solid;
+        border-color: aliceblue;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 90%;
+        height: 300px;
+    }
+}
+
+/*MOBIL*/
+@media (max-width: 425px) {
+    header nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .divgaleria {
+        background-color: rgb(71, 71, 71);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 1fr;
+        justify-items: center;
+        ;
+    }
+
+    .fotopesca {
+
+        object-fit: cover;
+        border-style: solid;
+        border-color: aliceblue;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 90%;
+    }
+}
