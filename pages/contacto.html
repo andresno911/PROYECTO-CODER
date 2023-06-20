@@ -54,25 +54,25 @@
             <!--FORMULARIO-->
             <div class="container">
                 <fieldset class=row class="fieldsetformmaincontacto1">
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                         <legend>Datos de contacto</legend>
                         <section>
 
-                            <div>
-                                <label for="nombre">Nombre</label>
-                                <input type="text" id="nombre" placeholder="Ingrese su Nombre">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su Nombre">
                             </div>
-                            <div>
-                                <label for="apellido">Apellido</label>
-                                <input type="text" id="apellido" placeholder="Ingrese su Apellido">
+                            <div class="mb-3">
+                                <label for="apellido" class="form-label">Apellido</label>
+                                <input type="text" class="form-control" id="apellido" placeholder="Ingrese su Apellido">
                             </div>
-                            <div>
-                                <label for="email">E-mail</label>
-                                <input type="email" name="" id="" placeholder="Ingrese su Mail">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" name="" id="" placeholder="Ingrese su Mail">
                             </div>
                             <div>
                                 <label for="provincia">Provincia</label>
-                                <select id="provincia">
+                                <select id="provincia" class="form-select">
                                     <option value="bsas">Buenos Aires</option>
                                     <option value="caba">CABA</option>
                                     <option value="catam">Catamarca</option>
@@ -103,56 +103,46 @@
                         </section>
                     </div>
 
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4" class="form-check">
                         <legend>Experiencia Pescando</legend>
-                        <span class="spanexperiencia">
-                            <label for="mucha">Mucha</label>
-                            <input type="radio" id="mucha" value="mucha" name="experiencia">
-                        </span>
-                        <span class="spanexperiencia">
-                            <label for="media">Media</label>
-                            <input type="radio" id="media" value="media" name="experiencia">
-                        </span>
-                        <span class="spanexperiencia">
-                            <label for="poca">Poca</label>
-                            <input type="radio" id="poca" value="poca" name="experiencia">
-                        </span>
-                        <span class="spanexperiencia">
-                            <label for="ninguna">Ninguna</label>
-                            <input type="radio" id="ninguna" value="ninguna" name="experiencia">
-                        </span>
+
+                        <label class="form-check-label" for="mucha">Mucha</label>
+                        <input class="form-check-input" type="radio" id="mucha" value="mucha" name="experiencia">
+                        <label class="form-check-label" for="media">Media</label>
+                        <input class="form-check-input" type="radio" id="media" value="media" name="experiencia">
+                        <label class="form-check-label" for="poca">Poca</label>
+                        <input class="form-check-input" type="radio" id="poca" value="poca" name="experiencia">
+                        <label class="form-check-label" for="ninguna">Ninguna</label>
+                        <input class="form-check-input" type="radio" id="ninguna" value="ninguna" name="experiencia">
+
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4" id="divmodalidad">
-                        <p>Modalidad de Pesca</p>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4" class="form-check" id="divmodalidad">
+                        <legend>Modalidad de Pesca</legend>
 
-                        <label for="bait">Baitcastin</label>
-                        <input type="checkbox" name="" id="bait">
-                        <br>
-                        <label for="spin">Spinning</label>
-                        <input type="checkbox" name="" id="spin">
-                        <br>
-                        <label for="fly">Flycast</label>
-                        <input type="checkbox" name="" id="fly">
-                        <br>
-
-                        <label for="carnada">Carnada</label>
-                        <input type="checkbox" name="" id="carnada">
+                        <label class="form-check-labe" for="bait">Baitcastin</label>
+                        <input class="form-check-input" type="checkbox" name="" id="bait">
+                        <label for="spin" class="form-check-label">Spinning</label>
+                        <input type="checkbox" class="form-check-input" name="" id="spin">
+                        <label for="fly" class="form-check-label">Flycast</label>
+                        <input type="checkbox" class="form-check-input" name="" id="fly">
+                        <label for="carnada" class="form-check-label">Carnada</label>
+                        <input type="checkbox" class="form-check-input" name="" id="carnada">
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12" class="divmainconsulta">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12" class="input-group" class="divmainconsulta">
 
                         <label for="consulta">Consultanos</label>
-                        <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
-        
+                        <textarea class="form-control" name="consulta" id="consulta" cols="30" rows="10"></textarea>
+
                     </div>
 
             </div>
 
-           
+
 
             <div id="divbutton">
-                <input type="submit" value="enviar" class="button">
-                <input type="reset" value="limpiar" class="button">
+                <input type="submit" class="btn btn-secondary" value="enviar" class="button">
+                <input type="reset" class="btn btn-secondary"value="limpiar" class="button">
             </div>
 
         </form>
