@@ -43,7 +43,7 @@ header nav a {
     background-position: center;
     justify-items: center;
     height: 1000px;
-
+    flex-direction: column;
 }
 
 main div h1 {
@@ -51,18 +51,19 @@ main div h1 {
     text-align: center;
     padding-top: 10vh;
     font-size: 40px;
+    padding: 20px;
 }
 
 /*Contacto Main*/
 .maincontacto {
-    height: 700px;
+    display: flex;
     background-image: url(./img/cft\ fondo.jpg);
-    width: 1500px;
     background-repeat: no-repeat;
     background-position: center;
-    margin: auto;
+    justify-items: center;
+    height: 900px;
+    flex-direction: column;
 }
-
 
 
 .maincontacto h2 {
@@ -81,20 +82,23 @@ main div h1 {
     font-size: 20px;
     padding-left: 10px;
 }
-
-
-.fieldsetformmaincontacto2 {
-    font-size: 20px;
-    padding: 10px;
+.fieldsetformmaincontacto1 legend{
+    font-size: 40px;
+    padding-left: 10px;
+    
 }
+
 
 .spanexperiencia {
     padding: 10px;
 }
 
 #divmodalidad {
+    padding: 10px;
     border-color: black;
     border-width: thick;
+    font-size: 20px;
+    padding-left: 10px;
 }
 
 #divbutton {
@@ -105,6 +109,7 @@ main div h1 {
 
 .divmainconsulta {
     padding-top: 130px;
+    align-items: center;
 }
 
 /*Galeria main*/
@@ -208,9 +213,14 @@ main div h1 {
     .mainindex .maindivindex {
         background-image: url(./img/cft\ fondo\ 50x50.jpg)
     }
-.footerindex {
-    background-color: rgb(166, 170, 170);
-}
+
+    .footerindex {
+        background-color: rgb(166, 170, 170);
+    }
+
+    .maincontacto {
+        background-image: url(./img/cft\ fondo\ 50x50.jpg)
+    }
 
     .divgaleria {
         background-color: rgb(70, 65, 65);
@@ -239,16 +249,23 @@ main div h1 {
         justify-content: space-around;
         align-items: center;
     }
+
     .mainindex .maindivindex {
         background-image: url(./img/cft\ fondo\ 30x30.jpg)
     }
+
     .divgaleria {
         background-color: rgb(71, 71, 71);
         display: grid;
         grid-template-columns: 1fr;
         grid-row: 1fr;
         justify-items: center;
-        ;
+        
+    }
+
+    .maincontacto {
+        height: 900px;
+        background-image: url(./img/cft\ fondo\ 30x30.jpg)
     }
 
     .fotopesca {
