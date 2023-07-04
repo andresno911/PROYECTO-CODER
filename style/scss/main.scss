@@ -1,0 +1,21 @@
+//abstracts
+
+//base
+@import "./base/reset";
+
+//components
+@import "./components/buttons";
+@import "./components/media";
+
+//layouts
+@import "./layouts/header";
+@import "./layouts/navbar";
+@import "./layouts/footer";
+@import "./layouts/grid";
+
+//pages
+@import "./pages/index";
+@import "./pages/contacto";
+@import "./pages/nosotros";
+@import "./pages/galeria";
+@import "./pages/pesqueros";

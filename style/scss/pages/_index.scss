@@ -1,0 +1,21 @@
+.mainindex {
+    background-size: contain;
+}
+
+.mainindex .maindivindex {
+    display: flex;
+    background-image: url(..);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-items: center;
+    height: 1000px;
+    flex-direction: column;
+}
+
+main div h1 {
+    color: black;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 40px;
+    padding: 20px;
+}

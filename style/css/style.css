@@ -1,3 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cinzel", serif;
+}
 
+#divbutton {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+}
+
+.fotopesca {
+  width: 90%;
+  object-fit: cover;
+  border-style: solid;
+  border-color: aliceblue;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 500px;
+}
+
+/*headers*/
+header a img {
+  width: 105px;
+  height: 75px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  font-size: 28px;
+}
+nav a {
+  color: rgb(0, 0, 0);
+  list-style: none;
+  text-decoration: none;
+}
+
+.divfooterindex {
+  display: flex;
+  justify-content: center;
+}
+.divfooterindex a img {
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.divgaleria {
+  background-color: rgb(71, 71, 71);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.mainindex {
+  background-size: contain;
+}
+
+.mainindex .maindivindex {
+  display: flex;
+  background-image: url(..);
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-items: center;
+  height: 1000px;
+  flex-direction: column;
+}
+
+main div h1 {
+  color: black;
+  text-align: center;
+  padding-top: 10vh;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.nosotrosmain h2 {
+  text-align: center;
+  padding: 20px;
+  font-size: 35px;
+}
+
+.maingaleria h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 35px;
+}
+
+.divgaleria {
+  background-color: rgb(71, 71, 71);
+}
 
 /*# sourceMappingURL=style.css.map */
