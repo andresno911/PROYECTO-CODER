@@ -1,0 +1,13 @@
+{
+  "name": "pre-entrega---grid-y-flex",
+  "version": "1.0.0",
+  "description": "Andres Nicolas Ortega",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:scss" : "sass --watch ./style/css/main.scss ./style/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+
+/*headers*/
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+    font-size: 28px;
+}
+
+header a img {
+    width: 105px;
+    height: 75px;
+}
+
+header nav a {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/*Index Main*/
+
+.mainindex {
+    background-size: contain;
+}
+
+.mainindex .maindivindex {
+    display: flex;
+    background-image: url(./img/cft\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-items: center;
+    height: 1000px;
+    flex-direction: column;
+}
+
+main div h1 {
+    color: black;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 40px;
+    padding: 20px;
+}
+
+/*Contacto Main*/
+.maincontacto {
+    display: flex;
+    background-image: url(./img/cft\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-items: center;
+    height: 900px;
+    flex-direction: column;
+}
+
+
+.maincontacto h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.fieldsetformmaincontacto1 section div {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.fieldsetformmaincontacto1 {
+    font-size: 20px;
+    padding-left: 10px;
+}
+.fieldsetformmaincontacto1 legend{
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+
+
+
+
+#divmodalidad {
+    padding: 10px;
+    border-color: black;
+    border-width: thick;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.divmodalidad {
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+#divbutton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.divmainconsulta {
+ padding-top: 200px;
+}
+
+/*Galeria main*/
+.maingaleria h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+
+.divgaleria {
+    background-color: rgb(71, 71, 71);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.fotopesca {
+    width: 90%;
+    object-fit: cover;
+    border-style: solid;
+    border-color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 500px;
+}
+
+/*Nosotros Main*/
+
+.nosotrosmain h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.nosotrosmain {
+    display: flex;
+    background-image: url(./img/cft\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-items: center;
+    height: 1000px;
+    flex-direction: column;
+}
+
+/*Pesqueros Main*/
+
+
+.pesquerosmain {
+    display: flex;
+    background-image: url(./img/cft\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-items: center;
+    height: 1000px;
+    flex-direction: column;
+}
+
+.pesquerosmain h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.pesquerosmain div img {
+    width: 75px;
+    height: 75px;
+    margin-top: 00px;
+}
+
+.pesquerosmain div iframe {
+    width: 75px;
+    height: 75px;
+    margin-top: 00px;
+}
+
+/*Footers*/
+
+.divfooterindex {
+    display: flex;
+    justify-content: center;
+}
+
+.divfooterindex a img {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/*TABLET*/
+
+@media (max-width: 1024px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainindex .maindivindex {
+        background-image: url(./img/cft\ fondo\ 50x50.jpg)
+    }
+
+    .footerindex {
+        background-color: rgb(166, 170, 170);
+    }
+
+    .maincontacto {
+        height: 1100px;
+        background-image: url(./img/cft\ fondo\ 50x50.jpg)
+    }
+
+    .divgaleria {
+        background-color: rgb(70, 65, 65);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr;
+        justify-items: center;
+    }
+
+    .fotopesca {
+
+        object-fit: cover;
+        border-style: solid;
+        border-color: aliceblue;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 90%;
+        height: 300px;
+    }
+    .pesquerosmain {
+        height: 700px;
+        background-image: url(./img/cft\ fondo\ 50x50.jpg)
+    }
+    .nosotrosmain {
+        height: 700px;
+        background-image: url(./img/cft\ fondo\ 50x50.jpg)
+    }
+}
+
+/*MOBIL*/
+@media (max-width: 425px) {
+    header nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mainindex .maindivindex {
+        background-image: url(./img/cft\ fondo\ 30x30.jpg)
+    }
+
+    .divgaleria {
+        background-color: rgb(71, 71, 71);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 1fr;
+        justify-items: center;
+        
+    }
+
+    .maincontacto {
+        height: 1100px;
+        background-image: url(./img/cft\ fondo\ 30x30.jpg)
+    }
+
+    .fotopesca {
+
+        object-fit: cover;
+        border-style: solid;
+        border-color: aliceblue;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 90%;
+    }
+    .pesquerosmain {
+        height: 700px;
+        background-image: url(./img/cft\ fondo\ 30x30.jpg)
+    }
+    .nosotrosmain {
+        height: 700px;
+        background-image: url(./img/cft\ fondo\ 30x30.jpg)
+    }
+    
+}
