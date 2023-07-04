@@ -1,0 +1,15 @@
+.maincontacto {
+    display: flex;
+    background-image: url(./img/cft\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-items: center;
+    height: 900px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    h2 {
+        text-align: center;
+        padding: 20px;
+        font-size: 35px;
+    }
+}

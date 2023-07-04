@@ -6,59 +6,14 @@
 
 
 /*Contacto Main*/
-.maincontacto {
-    display: flex;
-    background-image: url(./img/cft\ fondo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-items: center;
-    height: 900px;
-    flex-direction: column;
-}
-
-
-.maincontacto h2 {
-    text-align: center;
-    padding: 20px;
-    font-size: 35px;
-}
-
-.fieldsetformmaincontacto1 section div {
-    display: inline-block;
-    padding: 10px;
-}
-
-
-.fieldsetformmaincontacto1 {
-    font-size: 20px;
-    padding-left: 10px;
-}
-.fieldsetformmaincontacto1 legend{
-    font-size: 40px;
-    padding-left: 10px;
-}
 
 
 
 
 
-#divmodalidad {
-    padding: 10px;
-    border-color: black;
-    border-width: thick;
-    font-size: 20px;
-    padding-left: 10px;
-}
-.divmodalidad {
-    font-size: 40px;
-    padding-left: 10px;
-}
 
 
 
-.divmainconsulta {
- padding-top: 200px;
-}
 
 /*Galeria main*/
 
@@ -67,6 +22,7 @@
 
 
 /*Nosotros Main*/
+
 
 
 .nosotrosmain {
