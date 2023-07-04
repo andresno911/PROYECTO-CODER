@@ -7,3 +7,28 @@
     margin-bottom: 5px;
     height: 500px;
 }
+
+@media (max-width: 1024px) {
+
+    .fotopesca {
+        object-fit: cover;
+        border-style: solid;
+        border-color: aliceblue;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 90%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .fotopesca {
+        object-fit: cover;
+        border-style: solid;
+        border-color: aliceblue;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,45 @@
+.pesquerosmain {
+    display: flex;
+    background-image: url(/img/cft\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-items: center;
+    height: 1000px;
+    flex-direction: column;
+
+    h1 {
+        text-align: center;
+        padding: 20px;
+        font-size: 35px;
+    }
+
+    div {
+        img {
+            width: 75px;
+            height: 75px;
+            margin-top: 00px;
+        }
+
+        iframe {
+            width: 75px;
+            height: 75px;
+            margin-top: 00px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .pesquerosmain {
+        height: 700px;
+        background-image: url(/img/cft\ fondo\ 50x50.jpg)
+    }
+}
+
+@media (max-width: 425px) {
+
+    .pesquerosmain {
+        height: 700px;
+        background-image: url(/img/cft\ fondo\ 30x30.jpg)
+    }
+}

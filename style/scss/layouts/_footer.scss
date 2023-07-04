@@ -1,6 +1,7 @@
 .divfooterindex {
     display: flex;
     justify-content: center;
+
     a img {
         width: 75px;
         height: 75px;
@@ -9,3 +10,9 @@
     }
 }
 
+@media (max-width: 1024px) {
+
+    .footerindex {
+        background-color: rgb(166, 170, 170);
+    }
+}
