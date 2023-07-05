@@ -145,12 +145,12 @@ nav a {
 }
 .mainindex .maindivindex {
   display: flex;
-  background-image: url(/img/cft\ fondo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   justify-items: center;
   height: 1000px;
   flex-direction: column;
+  background-image: url(/img/cft\ fondo.jpg);
 }
 
 main div h1 {
@@ -173,12 +173,12 @@ main div h1 {
 }
 .maincontacto {
   display: flex;
-  background-image: url(/img/cft\ fondo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   justify-items: center;
-  height: 900px;
+  height: 1000px;
   flex-direction: column;
+  background-image: url(/img/cft\ fondo.jpg);
   justify-content: space-evenly;
 }
 .maincontacto h2 {
@@ -201,12 +201,12 @@ main div h1 {
 }
 .nosotrosmain {
   display: flex;
-  background-image: url(/img/cft\ fondo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   justify-items: center;
   height: 1000px;
   flex-direction: column;
+  background-image: url(/img/cft\ fondo.jpg);
 }
 .nosotrosmain h2 {
   text-align: center;
@@ -256,12 +256,12 @@ main div h1 {
 }
 .pesquerosmain {
   display: flex;
-  background-image: url(/img/cft\ fondo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   justify-items: center;
   height: 1000px;
   flex-direction: column;
+  background-image: url(/img/cft\ fondo.jpg);
 }
 .pesquerosmain h1 {
   text-align: center;
