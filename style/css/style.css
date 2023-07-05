@@ -150,7 +150,7 @@ nav a {
   justify-items: center;
   height: 1000px;
   flex-direction: column;
-  background-image: url(/img/cftfondo.jpg);
+  background-image: url(../../img/cftfondo.jpg);
 }
 
 main div h1 {
@@ -163,12 +163,12 @@ main div h1 {
 
 @media (max-width: 1024px) {
   .mainindex .maindivindex {
-    background-image: url(/img/cftfondo50x50.jpg);
+    background-image: url(../../img/cftfondo50x50.jpg);
   }
 }
 @media (max-width: 425px) {
   .mainindex .maindivindex {
-    background-image: url(/img/cftfondo30x30.jpg);
+    background-image: url(../../img/cftfondo30x30.jpg);
   }
 }
 .maincontacto {
