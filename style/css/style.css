@@ -178,7 +178,7 @@ main div h1 {
   justify-items: center;
   height: 1000px;
   flex-direction: column;
-  background-image: url(/img//cftfondo.jpeg);
+  background-image: url(/img/cftfondo.jpeg);
   justify-content: space-evenly;
 }
 .maincontacto h2 {
