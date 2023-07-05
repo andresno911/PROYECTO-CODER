@@ -1,6 +1,6 @@
 .maincontacto {
     @include flex;
-    background-image: url(/img/cftfondo.jpg);
+    background-image: url(/img//cftfondo.jpeg);
     justify-content: space-evenly;
 
     h2 {
@@ -14,7 +14,7 @@
 
     .maincontacto {
         height: 1100px;
-        background-image: url(./../../../img/cftfondo50x50.jpg)
+        background-image: url(../../../img/cftfondo.jpeg)
     }
 }
 
