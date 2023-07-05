@@ -1,0 +1,8 @@
+@mixin flex () {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-items: center;
+    height: 1000px;
+    flex-direction: column;
+}

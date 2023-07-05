@@ -2,13 +2,8 @@
     background-size: contain;
 
     .maindivindex {
-        display: flex;
+        @include flex;
         background-image: url(/img/cft\ fondo.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        justify-items: center;
-        height: 1000px;
-        flex-direction: column;
     }
 }
 

@@ -61,7 +61,7 @@ main div h1 {
     background-repeat: no-repeat;
     background-position: center;
     justify-items: center;
-    height: 900px;
+    height: 1000px;
     flex-direction: column;
 }
 
@@ -86,9 +86,6 @@ main div h1 {
     font-size: 40px;
     padding-left: 10px;
 }
-
-
-
 
 
 #divmodalidad {
