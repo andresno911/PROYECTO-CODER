@@ -150,7 +150,7 @@ nav a {
   justify-items: center;
   height: 1000px;
   flex-direction: column;
-  background-image: url(../../img/cftfondo.jpg);
+  background-image: url(/img/cft\ fondo.jpg);
 }
 
 main div h1 {
@@ -163,12 +163,12 @@ main div h1 {
 
 @media (max-width: 1024px) {
   .mainindex .maindivindex {
-    background-image: url(../../img/cftfondo50x50.jpg);
+    background-image: url(/img/cft\ fondo\ 50x50.jpg);
   }
 }
 @media (max-width: 425px) {
   .mainindex .maindivindex {
-    background-image: url(../../img/cftfondo30x30.jpg);
+    background-image: url(/img/cft\ fondo\ 30x30.jpg);
   }
 }
 .maincontacto {
@@ -178,7 +178,7 @@ main div h1 {
   justify-items: center;
   height: 1000px;
   flex-direction: column;
-  background-image: url(/img/cftfondo.jpg);
+  background-image: url(/img//cftfondo.jpeg);
   justify-content: space-evenly;
 }
 .maincontacto h2 {
@@ -190,7 +190,7 @@ main div h1 {
 @media (max-width: 1024px) {
   .maincontacto {
     height: 1100px;
-    background-image: url(/img/cftfondo50x50.jpg);
+    background-image: url(/img/cftfondo.jpg);
   }
 }
 @media (max-width: 425px) {
@@ -206,7 +206,7 @@ main div h1 {
   justify-items: center;
   height: 1000px;
   flex-direction: column;
-  background-image: url(/img/cftfondo.jpg);
+  background-image: url(/img/cft\ fondo.jpg);
 }
 .nosotrosmain h2 {
   text-align: center;
@@ -225,13 +225,13 @@ main div h1 {
 @media (max-width: 1024px) {
   .nosotrosmain {
     height: 700px;
-    background-image: url(/img/cftfondo50x50.jpg);
+    background-image: url(/img/cft\ fondo\ 50x50.jpg);
   }
 }
 @media (max-width: 425px) {
   .nosotrosmain {
     height: 700px;
-    background-image: url(/img/cftfondo30x30.jpg);
+    background-image: url(/img/cft\ fondo\ 30x30.jpg);
   }
 }
 .maingaleria h1 {
@@ -261,7 +261,7 @@ main div h1 {
   justify-items: center;
   height: 1000px;
   flex-direction: column;
-  background-image: url(/img/cftfondo.jpg);
+  background-image: url(/img/cft\ fondo.jpg);
 }
 .pesquerosmain h1 {
   text-align: center;
@@ -282,13 +282,13 @@ main div h1 {
 @media (max-width: 1024px) {
   .pesquerosmain {
     height: 700px;
-    background-image: url(/img/cftfondo50x50.jpg);
+    background-image: url(/img/cft\ fondo\ 50x50.jpg);
   }
 }
 @media (max-width: 425px) {
   .pesquerosmain {
     height: 700px;
-    background-image: url(/img/cftfondo30x30.jpg);
+    background-image: url(/img/cft\ fondo\ 30x30.jpg);
   }
 }
 
