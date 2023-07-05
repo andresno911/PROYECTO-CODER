@@ -178,7 +178,7 @@ main div h1 {
   justify-items: center;
   height: 1000px;
   flex-direction: column;
-  background-image: url(/img//cftfondo.jpeg);
+  background-image: url(/img/cftfondo.jpg);
   justify-content: space-evenly;
 }
 .maincontacto h2 {
@@ -190,13 +190,13 @@ main div h1 {
 @media (max-width: 1024px) {
   .maincontacto {
     height: 1100px;
-    background-image: url(../../../img/cftfondo.jpeg);
+    background-image: url(../../img/cftfondo50x50.jpg);
   }
 }
 @media (max-width: 425px) {
   .maincontacto {
     height: 1100px;
-    background-image: url(../../../img/cftfondo30x30.jpg);
+    background-image: url(/img/cftfondo30x30.jpg);
   }
 }
 .nosotrosmain {
