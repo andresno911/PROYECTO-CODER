@@ -150,7 +150,7 @@ nav a {
   justify-items: center;
   height: 1000px;
   flex-direction: column;
-  background-image: url(/img/cft\ fondo.jpg);
+  background-image: url(./../../img/cftfondo.jpg);
 }
 
 main div h1 {
