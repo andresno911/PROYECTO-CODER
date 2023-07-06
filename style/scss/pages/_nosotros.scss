@@ -1,6 +1,6 @@
 .nosotrosmain {
     @include flex;
-    background-image: url(../../../img/cftfondo.jpg);
+    background-image: url(../../img/cftfondo.jpg);
 
     h2 {
         text-align: center;
@@ -29,7 +29,7 @@
 
     .nosotrosmain {
         height: 700px;
-        background-image: url('/img/cftfondo50x50.jpg')
+        background-image: url(../../img/cftfondo50x50.jpg)
     }
 }
 
@@ -37,6 +37,6 @@
 
     .nosotrosmain {
         height: 700px;
-        background-image: url('/img/cftfondo30x30.jpg')
+        background-image: url(../../img/cftfondo30x30.jpg)
     }
 }
