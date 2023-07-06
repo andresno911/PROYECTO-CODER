@@ -20,7 +20,7 @@
   height: 500px;
 }
 .divgaleria img {
-  transition: all 1s;
+  transition: all 500ms;
 }
 .divgaleria img:hover {
   width: 700px;
@@ -37,7 +37,7 @@
     height: 300px;
   }
   .divgaleria img {
-    transition: all 1s;
+    transition: all 500ms;
   }
   .divgaleria img:hover {
     width: 95%;
@@ -85,7 +85,7 @@ header a img {
 }
 
 nav {
-  background-image: radial-gradient(ellipse, rgb(255, 255, 255), rgb(178, 178, 184));
+  background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(178, 178, 184));
 }
 nav ul {
   display: flex;
@@ -119,6 +119,7 @@ nav a {
 .divfooterindex {
   display: flex;
   justify-content: center;
+  background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(178, 178, 184));
 }
 .divfooterindex a img {
   width: 75px;
