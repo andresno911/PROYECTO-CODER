@@ -216,7 +216,7 @@ nav a {
   justify-items: center;
   height: 1200px;
   flex-direction: column;
-  background-image: url('/img//cftfondo.jpeg');
+  background-image: url('/img/cftfondo.jpg');
   justify-content: space-evenly;
 }
 .maincontacto h2 {
