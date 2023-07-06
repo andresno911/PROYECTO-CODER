@@ -241,7 +241,7 @@ nav a {
   justify-items: center;
   height: 1200px;
   flex-direction: column;
-  background-image: url(../../../img/cftfondo.jpg);
+  background-image: url(../../../pages/img/cftfondo.jpg);
 }
 .nosotrosmain h2 {
   text-align: center;
