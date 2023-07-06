@@ -10,13 +10,20 @@
   padding-bottom: 0;
 }
 
-.fotopesca {
+.divgaleria .fotopesca {
   width: 90%;
   object-fit: cover;
   border-style: solid;
   border-color: aliceblue;
   margin-top: 5px;
   margin-bottom: 5px;
+  height: 500px;
+}
+.divgaleria img {
+  transition: all 2s;
+}
+.divgaleria img:hover {
+  width: 300px;
   height: 500px;
 }
 
@@ -117,7 +124,6 @@ nav a {
   }
 }
 .divgaleria {
-  /*background-color: rgb(71, 71, 71);*/
   background-image: radial-gradient(ellipse, rgb(187, 183, 183), rgb(19, 19, 37));
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -236,12 +242,18 @@ nav a {
   padding: 20px;
   font-size: 35px;
 }
-.nosotrosmain div {
+.nosotrosmain .divnosotros {
   display: flex;
   justify-content: center;
   padding-top: 100px;
+  background-color: grey;
+  transition: 1s;
 }
-.nosotrosmain div p {
+.nosotrosmain .divnosotros:hover {
+  background-color: red;
+  height: 500px;
+}
+.nosotrosmain .divnosotros p {
   font-size: 25px;
 }
 
@@ -263,20 +275,6 @@ nav a {
   font-size: 35px;
 }
 
-.divgaleria {
-  background-color: rgb(71, 71, 71);
-}
-
-@media (max-width: 1024px) {
-  .divgaleria {
-    background-color: rgb(70, 65, 65);
-  }
-}
-@media (max-width: 425px) {
-  .divgaleria {
-    background-color: rgb(71, 71, 71);
-  }
-}
 .pesquerosmain {
   display: flex;
   background-repeat: no-repeat;

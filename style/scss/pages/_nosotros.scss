@@ -8,10 +8,16 @@
         font-size: 35px;
     }
 
-    div {
+    .divnosotros {
         display: flex;
         justify-content: center;
         padding-top: 100px;
+        background-color: grey;
+        transition: 1s;
+        &:hover {
+            background-color: red;
+            height: 500px;
+        }
 
         p {
             font-size: 25px;

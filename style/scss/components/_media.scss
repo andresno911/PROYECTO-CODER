@@ -1,12 +1,26 @@
-.fotopesca {
-    width: 90%;
-    object-fit: cover;
-    border-style: solid;
-    border-color: aliceblue;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height: 500px;
+.divgaleria {
+
+    .fotopesca {
+        width: 90%;
+        object-fit: cover;
+        border-style: solid;
+        border-color: aliceblue;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 500px;
+
+    }
+
+    img {
+        transition: all 2s;
+
+        &:hover {
+            width: 300px;
+            height: 500px;
+        }
+    }
 }
+
 
 @media (max-width: 1024px) {
 
@@ -18,6 +32,7 @@
         margin-bottom: 5px;
         width: 90%;
         height: 300px;
+
     }
 }
 
