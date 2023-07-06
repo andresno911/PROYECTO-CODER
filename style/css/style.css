@@ -244,7 +244,7 @@ nav a {
   justify-items: center;
   height: 1200px;
   flex-direction: column;
-  background-image: url(/img/cftfondo.jpg);
+  background-image: url("/img/cftfondo.jpg");
 }
 .nosotrosmain h2 {
   text-align: center;
@@ -269,13 +269,13 @@ nav a {
 @media (max-width: 1024px) {
   .nosotrosmain {
     height: 700px;
-    background-image: url(../../../img/cftfondo50x50.jpg);
+    background-image: url("/img/cftfondo50x50.jpg");
   }
 }
 @media (max-width: 425px) {
   .nosotrosmain {
     height: 700px;
-    background-image: url(../../../img/cftfondo30x30.jpg);
+    background-image: url("/img/cftfondo30x30.jpg");
   }
 }
 .maingaleria h1 {
