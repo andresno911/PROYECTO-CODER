@@ -20,11 +20,10 @@
   height: 500px;
 }
 .divgaleria img {
-  transition: all 2s;
+  transition: all 1s;
 }
 .divgaleria img:hover {
-  width: 300px;
-  height: 500px;
+  width: 700px;
 }
 
 @media (max-width: 1024px) {
