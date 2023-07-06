@@ -84,6 +84,9 @@ header a img {
   padding-top: 200px;
 }
 
+nav {
+  background-image: radial-gradient(ellipse, rgb(255, 255, 255), rgb(178, 178, 184));
+}
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -241,7 +244,7 @@ nav a {
   justify-items: center;
   height: 1200px;
   flex-direction: column;
-  background-image: url(../../../pages/img/cftfondo.jpg);
+  background-image: url(/img/cftfondo.jpg);
 }
 .nosotrosmain h2 {
   text-align: center;
@@ -256,7 +259,7 @@ nav a {
   transition: 1s;
 }
 .nosotrosmain .divnosotros:hover {
-  background-color: red;
+  background-color: rgb(255, 255, 255);
   height: 500px;
 }
 .nosotrosmain .divnosotros p {
@@ -288,7 +291,8 @@ nav a {
   justify-items: center;
   height: 1200px;
   flex-direction: column;
-  background-image: url(/img/cftfondo.jpg);
+  /* background-image: url(/img/cftfondo.jpg);*/
+  background-image: radial-gradient(ellipse 1000px 2000px, rgb(255, 255, 255), rgb(178, 178, 184));
 }
 .pesquerosmain h1 {
   text-align: center;

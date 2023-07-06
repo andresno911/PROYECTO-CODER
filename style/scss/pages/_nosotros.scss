@@ -1,6 +1,6 @@
 .nosotrosmain {
     @include flex;
-    background-image: url(../../../pages/img/cftfondo.jpg);
+    background-image: url(/img/cftfondo.jpg);
 
     h2 {
         text-align: center;
@@ -15,7 +15,7 @@
         background-color: grey;
         transition: 1s;
         &:hover {
-            background-color: red;
+            background-color: rgb(255, 255, 255);
             height: 500px;
         }
 
