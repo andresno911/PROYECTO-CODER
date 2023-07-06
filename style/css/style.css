@@ -54,7 +54,6 @@
     width: 90%;
   }
 }
-/*headers*/
 header a img {
   width: 105px;
   height: 75px;
@@ -72,15 +71,13 @@ header a img {
   display: inline-block;
   padding: 10px;
 }
-
-.divmodalidad {
+.fieldsetformmaincontacto1 .divmodalidad {
   padding: 10px;
   border-color: black;
   border-width: thick;
   padding-left: 10px;
 }
-
-.divmainconsulta {
+.fieldsetformmaincontacto1 .divmainconsulta {
   padding-top: 200px;
 }
 
@@ -222,7 +219,6 @@ nav a {
 }
 .maincontacto h2 {
   text-align: center;
-  padding: 20px;
   font-size: 35px;
 }
 
