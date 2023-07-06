@@ -118,7 +118,7 @@ nav a {
 }
 .divgaleria {
   /*background-color: rgb(71, 71, 71);*/
-  background-image: radial-gradient(ellipse 150px 100px, rgb(38, 38, 151), rgb(126, 122, 122));
+  background-image: radial-gradient(ellipse, rgb(187, 183, 183), rgb(19, 19, 37));
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
@@ -142,34 +142,56 @@ nav a {
   }
 }
 .mainindex {
-  background-size: contain;
+  display: flex;
+  justify-items: center;
+  height: 900px;
+  flex-direction: column;
+  justify-content: center;
 }
 .mainindex .maindivindex {
   display: flex;
-  background-repeat: no-repeat;
-  background-position: center;
   justify-items: center;
-  height: 1000px;
+  height: 200px;
   flex-direction: column;
-  background-image: url(/img/cft\ fondo.jpg);
 }
-
-main div h1 {
+.mainindex .maindivindex h1 {
   color: black;
   text-align: center;
-  padding-top: 10vh;
   font-size: 40px;
   padding: 20px;
 }
+.mainindex .divindex {
+  display: grid;
+  justify-items: center;
+}
+.mainindex .divindex img {
+  width: 90%;
+  padding-top: 5px;
+}
 
 @media (max-width: 1024px) {
-  .mainindex .maindivindex {
-    background-image: url(/img/cft\ fondo\ 50x50.jpg);
+  .mainindex {
+    justify-content: space-evenly;
+    height: 600px;
+  }
+  .mainindex .maindivindex h1 {
+    font-size: 35px;
+  }
+  .mainindex .maindivindex .divindex {
+    display: grid;
+    justify-items: center;
+    object-fit: cover;
+  }
+  .mainindex .maindivindex .divindex img {
+    width: 90%;
   }
 }
 @media (max-width: 425px) {
-  .mainindex .maindivindex {
-    background-image: url(/img/cft\ fondo\ 30x30.jpg);
+  .mainindex {
+    height: 500px;
+  }
+  .mainindex .maindivindex h1 {
+    font-size: 30px;
   }
 }
 .maincontacto {
@@ -177,7 +199,7 @@ main div h1 {
   background-repeat: no-repeat;
   background-position: center;
   justify-items: center;
-  height: 1000px;
+  height: 1200px;
   flex-direction: column;
   background-image: url(/img//cftfondo.jpeg);
   justify-content: space-evenly;
@@ -205,9 +227,9 @@ main div h1 {
   background-repeat: no-repeat;
   background-position: center;
   justify-items: center;
-  height: 1000px;
+  height: 1200px;
   flex-direction: column;
-  background-image: url(/img/cft\ fondo.jpg);
+  background-image: url(../../../img/cftfondo.jpg);
 }
 .nosotrosmain h2 {
   text-align: center;
@@ -226,13 +248,13 @@ main div h1 {
 @media (max-width: 1024px) {
   .nosotrosmain {
     height: 700px;
-    background-image: url(/img/cft\ fondo\ 50x50.jpg);
+    background-image: url(../../../img/cftfondo50x50.jpg);
   }
 }
 @media (max-width: 425px) {
   .nosotrosmain {
     height: 700px;
-    background-image: url(/img/cft\ fondo\ 30x30.jpg);
+    background-image: url(../../../img/cftfondo30x30.jpg);
   }
 }
 .maingaleria h1 {
@@ -260,7 +282,7 @@ main div h1 {
   background-repeat: no-repeat;
   background-position: center;
   justify-items: center;
-  height: 1000px;
+  height: 1200px;
   flex-direction: column;
   background-image: url(/img/cftfondo.jpg);
 }

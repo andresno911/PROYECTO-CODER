@@ -1,30 +1,72 @@
 .mainindex {
-    background-size: contain;
+    display: flex;
+    justify-items: center;
+    height: 900px;
+    flex-direction: column;
+    justify-content: center;
 
     .maindivindex {
-        @include flex;
-        background-image: url(/img/cft\ fondo.jpg);
+        display: flex;
+        justify-items: center;
+        height: 200px;
+        flex-direction: column;
+
+        h1 {
+            color: black;
+            text-align: center;
+            font-size: 40px;
+            padding: 20px;
+        }
+
+        //background-image: url(/img/cft\ fondo.jpg);//
     }
+
+    .divindex {
+        display: grid;
+        justify-items: center;
+
+        img {
+            width: 90%;
+            padding-top: 5px;
+        }
+    }
+
 }
 
-main div h1 {
-    color: black;
-    text-align: center;
-    padding-top: 10vh;
-    font-size: 40px;
-    padding: 20px;
-}
+
 
 @media (max-width: 1024px) {
+    .mainindex {
+        justify-content: space-evenly;
+        height: 600px;
 
-    .mainindex .maindivindex {
-        background-image: url(/img/cft\ fondo\ 50x50.jpg)
+        .maindivindex {
+            h1 {
+                font-size: 35px;
+            }
+
+            .divindex {
+                display: grid;
+                justify-items: center;
+                object-fit: cover;
+
+                img {
+                    width: 90%;
+                }
+            }
+        }
     }
 }
 
 @media (max-width: 425px) {
 
-    .mainindex .maindivindex {
-        background-image: url(/img/cft\ fondo\ 30x30.jpg)
+    .mainindex {
+        height: 500px;
+
+        .maindivindex {
+            h1 {
+                font-size: 30px;
+            }
+        }
     }
 }
