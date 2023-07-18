@@ -1,26 +1,22 @@
 .nosotrosmain {
     @include flex;
-    background-image: url(../../img/cftfondo.jpg);
+    justify-content: space-evenly;
+    height: 100%;
 
     h2 {
         text-align: center;
         padding: 20px;
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .divnosotros {
         display: flex;
         justify-content: center;
-        padding-top: 100px;
-        background-color: grey;
-        transition: 1s;
-        &:hover {
-            background-color: rgb(255, 255, 255);
-            height: 500px;
-        }
+        margin: 50px;
 
         p {
-            font-size: 25px;
+            font-size: 30px;
+            font-weight: 600;
         }
     }
 }
@@ -28,15 +24,19 @@
 @media (max-width: 1024px) {
 
     .nosotrosmain {
-        height: 700px;
-        background-image: url(../../img/cftfondo50x50.jpg)
+        height: 100%;
     }
 }
 
 @media (max-width: 425px) {
 
     .nosotrosmain {
-        height: 700px;
-        background-image: url(../../img/cftfondo30x30.jpg)
+        height: 100%;
+
+        .divnosotros {
+            p {
+                font-size: 20px;
+            }
+        }
     }
 }

@@ -6,8 +6,9 @@
 
 #divbutton {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-bottom: 0;
+  padding-top: 100px;
 }
 
 .divgaleria .fotopesca {
@@ -20,10 +21,10 @@
   height: 500px;
 }
 .divgaleria img {
-  transition: all 500ms;
+  transition: all 2s;
 }
 .divgaleria img:hover {
-  width: 700px;
+  width: 600px;
 }
 
 @media (max-width: 1024px) {
@@ -37,7 +38,7 @@
     height: 300px;
   }
   .divgaleria img {
-    transition: all 500ms;
+    transition: all 2s;
   }
   .divgaleria img:hover {
     width: 95%;
@@ -59,28 +60,55 @@ header a img {
   height: 75px;
 }
 
-.fieldsetformmaincontacto1 {
+.maincontacto .formcontacto .container fieldset {
   font-size: 20px;
   padding-left: 10px;
 }
-.fieldsetformmaincontacto1 legend {
-  font-size: 40px;
+.maincontacto .formcontacto .container fieldset legend {
+  font-size: 30px;
   padding-left: 10px;
+  font-weight: 600;
 }
-.fieldsetformmaincontacto1 section div {
+.maincontacto .formcontacto .container fieldset section div {
   display: inline-block;
   padding: 10px;
+  font-weight: 600;
 }
-.fieldsetformmaincontacto1 .divmodalidad {
-  padding: 10px;
-  border-color: black;
-  border-width: thick;
-  padding-left: 10px;
-}
-.fieldsetformmaincontacto1 .divmainconsulta {
-  padding-top: 200px;
+.maincontacto .formcontacto .container fieldset div {
+  padding: 40px;
+  font-weight: 600;
 }
 
+@media (max-width: 1024px) {
+  .maincontacto {
+    height: 98%;
+    background-image: radial-gradient(ellipse 1000px 2000px, rgb(255, 255, 255), rgb(178, 178, 184));
+  }
+  .maincontacto .formcontacto .container fieldset {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .maincontacto .formcontacto .container fieldset legend {
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 600;
+  }
+  .maincontacto .formcontacto .container fieldset section div {
+    display: inline-block;
+    padding: 10px;
+    font-weight: 600;
+  }
+  .maincontacto .formcontacto .container fieldset div {
+    padding: 30px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 425px) {
+  .maincontacto {
+    height: 98%;
+    background-image: radial-gradient(ellipse 1000px 2000px, rgb(255, 255, 255), rgb(178, 178, 184));
+  }
+}
 nav {
   background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(178, 178, 184));
 }
@@ -219,18 +247,22 @@ nav a {
 }
 .maincontacto h2 {
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 @media (max-width: 1024px) {
   .maincontacto {
-    height: 1100px;
-    background-image: url(../../img/cftfondo50x50.jpg);
+    height: 98%;
+    background-image: radial-gradient(ellipse 1000px 2000px, rgb(255, 255, 255), rgb(178, 178, 184));
+  }
+  .maincontacto h2 {
+    padding-top: 10px;
+    font-size: 35px;
   }
 }
 @media (max-width: 425px) {
   .maincontacto {
-    height: 1100px;
+    height: 98%;
     background-image: radial-gradient(ellipse 1000px 2000px, rgb(255, 255, 255), rgb(178, 178, 184));
   }
 }
@@ -241,38 +273,35 @@ nav a {
   justify-items: center;
   height: 1200px;
   flex-direction: column;
-  background-image: url(../../img/cftfondo.jpg);
+  justify-content: space-evenly;
+  height: 100%;
 }
 .nosotrosmain h2 {
   text-align: center;
   padding: 20px;
-  font-size: 35px;
+  font-size: 40px;
 }
 .nosotrosmain .divnosotros {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
-  background-color: grey;
-  transition: 1s;
-}
-.nosotrosmain .divnosotros:hover {
-  background-color: rgb(255, 255, 255);
-  height: 500px;
+  margin: 50px;
 }
 .nosotrosmain .divnosotros p {
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 @media (max-width: 1024px) {
   .nosotrosmain {
-    height: 700px;
-    background-image: url(../../img/cftfondo50x50.jpg);
+    height: 100%;
   }
 }
 @media (max-width: 425px) {
   .nosotrosmain {
-    height: 700px;
-    background-image: url(../../img/cftfondo30x30.jpg);
+    height: 100%;
+  }
+  .nosotrosmain .divnosotros p {
+    font-size: 20px;
   }
 }
 .maingaleria h1 {
@@ -295,6 +324,12 @@ nav a {
   text-align: center;
   padding: 20px;
   font-size: 35px;
+}
+.pesquerosmain div {
+  width: 90%;
+  object-fit: cover;
+  border-style: solid;
+  border-color: aliceblue;
 }
 .pesquerosmain div img {
   width: 75px;
