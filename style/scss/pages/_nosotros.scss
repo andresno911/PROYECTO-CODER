@@ -25,7 +25,9 @@
 @media (max-width: 1024px) {
 
     .nosotrosmain {
+        background-image: url(../../img/cftfondo50x50.jpg);
         height: 100%;
+        background-repeat: repeat-y;
     }
 }
 
@@ -33,7 +35,8 @@
 
     .nosotrosmain {
         height: 100%;
-
+        background-image: url(../../img/cftfondo30x30.jpg);
+        background-repeat: repeat-y;
         .divnosotros {
             p {
                 font-size: 20px;
