@@ -1,5 +1,6 @@
 nav {
-    background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(178, 178, 184) );
+    background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(178, 178, 184));
+
     ul {
         display: flex;
         justify-content: space-around;
@@ -17,6 +18,7 @@ nav {
         text-decoration: none;
     }
 }
+
 
 @media (max-width: 1024px) {
     nav ul {

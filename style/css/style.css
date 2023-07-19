@@ -325,18 +325,31 @@ nav a {
   padding: 20px;
   font-size: 35px;
 }
-.pesquerosmain div {
-  width: 90%;
-  object-fit: cover;
-  border-style: solid;
-  border-color: aliceblue;
+.pesquerosmain .divpesqueros {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.pesquerosmain div img {
+.pesquerosmain .divpesqueros legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 480;
+}
+.pesquerosmain .divpesqueros div .divframes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pesquerosmain .divpesqueros div img {
   width: 75px;
   height: 75px;
   margin-top: 0px;
 }
-.pesquerosmain div iframe {
+.pesquerosmain .divpesqueros div iframe {
   width: 75px;
   height: 75px;
   margin-top: 0px;
@@ -344,14 +357,12 @@ nav a {
 
 @media (max-width: 1024px) {
   .pesquerosmain {
-    height: 700px;
-    background-image: url(../../img/cftfondo50x50.jpg);
+    height: 80%;
   }
 }
 @media (max-width: 425px) {
   .pesquerosmain {
-    height: 700px;
-    background-image: url(../../img/cftfondo30x30.jpg);
+    height: 80%;
   }
 }
 

@@ -31,30 +31,31 @@
 
     .maincontacto {
         height: 98%;
-        background-image: radial-gradient(ellipse  1000px 2000px, rgb(255, 255, 255), rgb(178, 178, 184) );
+        background-image: radial-gradient(ellipse 1000px 2000px, rgb(255, 255, 255), rgb(178, 178, 184));
+
         .formcontacto {
             .container {
                 fieldset {
                     font-size: 15px;
                     padding-left: 10px;
-    
+
                     legend {
                         font-size: 18px;
                         padding-left: 10px;
                         font-weight: 600;
                     }
-    
+
                     section div {
                         display: inline-block;
                         padding: 10px;
                         font-weight: 600;
                     }
-    
+
                     div {
                         padding: 30px;
                         font-weight: 600;
                     }
-    
+
                 }
             }
         }
@@ -65,6 +66,6 @@
 
     .maincontacto {
         height: 98%;
-        background-image: radial-gradient(ellipse  1000px 2000px, rgb(255, 255, 255), rgb(178, 178, 184) );
+        background-image: radial-gradient(ellipse 1000px 2000px, rgb(255, 255, 255), rgb(178, 178, 184));
     }
 }
