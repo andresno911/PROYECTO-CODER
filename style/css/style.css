@@ -104,7 +104,7 @@ header a img {
   }
 }
 nav {
-  background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(178, 178, 184));
+  background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(83, 83, 87));
 }
 nav ul {
   display: flex;
@@ -138,7 +138,7 @@ nav a {
 .divfooterindex {
   display: flex;
   justify-content: center;
-  background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(178, 178, 184));
+  background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(52, 52, 56));
 }
 .divfooterindex a img {
   width: 75px;
@@ -300,9 +300,12 @@ nav a {
   }
 }
 .maingaleria h1 {
+  color: aliceblue;
   text-align: center;
   padding: 20px;
   font-size: 35px;
+  background-color: rgb(25, 32, 32);
+  background-image: radial-gradient(ellipse, rgb(104, 100, 100), rgb(19, 19, 37));
 }
 
 .pesquerosmain {
