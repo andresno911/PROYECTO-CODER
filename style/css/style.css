@@ -7,7 +7,7 @@
 #divbutton {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 0;
+  padding-bottom: 50px;
   padding-top: 100px;
 }
 
