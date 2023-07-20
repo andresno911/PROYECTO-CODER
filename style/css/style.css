@@ -104,7 +104,7 @@ header a img {
   }
 }
 nav {
-  background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(83, 83, 87));
+  background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(119, 119, 124));
 }
 nav ul {
   display: flex;
@@ -138,7 +138,7 @@ nav a {
 .divfooterindex {
   display: flex;
   justify-content: center;
-  background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(52, 52, 56));
+  background-image: radial-gradient(ellipse 1000PX 145PX, rgb(255, 255, 255), rgb(86, 86, 90));
 }
 .divfooterindex a img {
   width: 75px;
@@ -179,7 +179,7 @@ nav a {
 .mainindex {
   display: flex;
   justify-items: center;
-  height: 900px;
+  height: 1000px;
   flex-direction: column;
   justify-content: center;
 }
@@ -228,7 +228,7 @@ nav a {
     height: 500px;
   }
   .mainindex .maindivindex h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 .maincontacto {
